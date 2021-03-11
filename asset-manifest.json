@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/eurotransit/static/css/main.3e90b8ec.chunk.css",
-    "main.js": "/eurotransit/static/js/main.838c47ae.chunk.js",
-    "main.js.map": "/eurotransit/static/js/main.838c47ae.chunk.js.map",
-    "runtime-main.js": "/eurotransit/static/js/runtime-main.647a6a8b.js",
-    "runtime-main.js.map": "/eurotransit/static/js/runtime-main.647a6a8b.js.map",
-    "static/js/2.50dbb39b.chunk.js": "/eurotransit/static/js/2.50dbb39b.chunk.js",
-    "static/js/2.50dbb39b.chunk.js.map": "/eurotransit/static/js/2.50dbb39b.chunk.js.map",
-    "static/js/3.03bb725d.chunk.js": "/eurotransit/static/js/3.03bb725d.chunk.js",
-    "static/js/3.03bb725d.chunk.js.map": "/eurotransit/static/js/3.03bb725d.chunk.js.map",
+    "main.css": "/eurotransit/static/css/main.b0eed2c2.chunk.css",
+    "main.js": "/eurotransit/static/js/main.30567f76.chunk.js",
+    "main.js.map": "/eurotransit/static/js/main.30567f76.chunk.js.map",
+    "runtime-main.js": "/eurotransit/static/js/runtime-main.55b8513c.js",
+    "runtime-main.js.map": "/eurotransit/static/js/runtime-main.55b8513c.js.map",
+    "static/js/2.d4242806.chunk.js": "/eurotransit/static/js/2.d4242806.chunk.js",
+    "static/js/2.d4242806.chunk.js.map": "/eurotransit/static/js/2.d4242806.chunk.js.map",
+    "static/js/3.ecc2f76f.chunk.js": "/eurotransit/static/js/3.ecc2f76f.chunk.js",
+    "static/js/3.ecc2f76f.chunk.js.map": "/eurotransit/static/js/3.ecc2f76f.chunk.js.map",
     "index.html": "/eurotransit/index.html",
-    "static/css/main.3e90b8ec.chunk.css.map": "/eurotransit/static/css/main.3e90b8ec.chunk.css.map",
-    "static/js/2.50dbb39b.chunk.js.LICENSE.txt": "/eurotransit/static/js/2.50dbb39b.chunk.js.LICENSE.txt"
+    "static/css/main.b0eed2c2.chunk.css.map": "/eurotransit/static/css/main.b0eed2c2.chunk.css.map",
+    "static/js/2.d4242806.chunk.js.LICENSE.txt": "/eurotransit/static/js/2.d4242806.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.647a6a8b.js",
-    "static/js/2.50dbb39b.chunk.js",
-    "static/css/main.3e90b8ec.chunk.css",
-    "static/js/main.838c47ae.chunk.js"
+    "static/js/runtime-main.55b8513c.js",
+    "static/js/2.d4242806.chunk.js",
+    "static/css/main.b0eed2c2.chunk.css",
+    "static/js/main.30567f76.chunk.js"
   ]
 }
