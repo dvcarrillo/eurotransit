@@ -3,7 +3,6 @@ import chroma from "chroma-js";
 
 import theme from "../../src/theme.json";
 
-
 const Legend = ({ limits, transportation }) => {
     const [max, min] = limits
     const range = [theme.map[transportation].min, theme.map[transportation].max];
@@ -20,7 +19,9 @@ const Legend = ({ limits, transportation }) => {
                 <div className="legend__text">{(max / 1000000).toFixed(0)}M passengers</div>
             </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Legend;
