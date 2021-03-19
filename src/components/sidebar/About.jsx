@@ -47,9 +47,9 @@ const About = () => {
   return (
     <div className="sidebar">
       <div className="countryNameContainer">
-        <h2>About</h2>
+        <h2>The Eurotransit project</h2>
       </div>
-      <div className="sidebarContent">
+      <div className="aboutSidebarContent">
         <div
           style={{
             display: "flex",
@@ -58,7 +58,7 @@ const About = () => {
             paddingLeft: "10px",
           }}
         >
-          <h3>Eurotransit team</h3>
+          <h3>About us</h3>
           {data.people.map((person) => (
             <div key={person.name} className="people-container">
               <div>
@@ -130,23 +130,22 @@ const About = () => {
           <div className="text">
             <ul>
               <li>
-                Tirachini, Alejandro {"&"} Cats, Oded. 2020. COVID-19 and Public Transportation: Current Assessment, Prospects, and Research Needs. Journal of Public Transportation, 22 (1): .
-  https://doi.org/10.5038/2375-0901.22.1.1
+                Tirachini, Alejandro {"&"} Cats, Oded. 2020. COVID-19 and Public Transportation: Current Assessment, Prospects, and Research Needs. Journal of Public Transportation, 22 (1): <a href="https://doi.org/10.5038/2375-0901.22.1.1"> https://doi.org/10.5038/2375-0901.22.1.1</a>
               </li>
               <li>
-                Nižetić, S. Impact of coronavirus (COVID‐19) pandemic on air transport mobility, energy, and environment: A case study. Int J Energy Res. 2020; 44: 10953– 10961. https://doi.org/10.1002/er.5706
+                Nižetić, S. Impact of coronavirus (COVID‐19) pandemic on air transport mobility, energy, and environment: A case study. Int J Energy Res. 2020; 44: 10953– 10961. <a href="https://doi.org/10.1002/er.5706"> https://doi.org/10.1002/er.5706</a>
               </li>
               <li>
-                Rich Harris, Blacki Migliozzi, and Niraj Chokshi. 2020. 13,000 missing Flights: The global consequences of THE CORONAVIRUS. Retrieved from https://www.nytimes.com/interactive/2020/02/21/business/coronavirus-airline-travel.html
+                Rich Harris, Blacki Migliozzi, and Niraj Chokshi. 2020. 13,000 missing Flights: The global consequences of THE CORONAVIRUS. Retrieved from <a href="https://www.nytimes.com/interactive/2020/02/21/business/coronavirus-airline-travel.html">The New York Times</a>.
               </li>
               <li>
-                European Commission. 2018. Atlas of the Sky. Retrieved from https://ec.europa.eu/transport/modes/air/aos/aos_public.html              
+                European Commission. 2018. Atlas of the Sky. Retrieved from <a href="https://ec.europa.eu/transport/modes/air/aos/aos_public.html">European Commission</a>.
               </li>
             </ul>
           </div>
           <h3>Third party libraries</h3>
           <div className="text">
-            <span>Made thanks to </span>
+            <span>Made with </span>
             <a
               className="link"
               target="_blank"
@@ -173,18 +172,17 @@ const About = () => {
             >
               React Simple Maps
             </a>
-            .<span>Fork us on our </span>
+            .<span> Fork Eurotransit on our repository below!</span>
           </div>
-          <h3>Our repo</h3>
+          <h3>Repository</h3>
           <div className="text">
-            <span>Fork us on our </span>
             <a
               className="link"
               target="_blank"
               rel="noreferrer"
               href="https://github.com/dvcarrillo/eurotransit"
             >
-              Github repository.
+              github.com/dvcarrillo/eurotransit
             </a>
           </div>
         </div>

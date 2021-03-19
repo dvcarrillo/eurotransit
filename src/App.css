@@ -288,6 +288,7 @@ button:focus {
   align-items: center;
   position: fixed;
   top: 45px;
+  z-index: 100;
 }
 
 .countryNameContainer>img {
@@ -300,7 +301,7 @@ button:focus {
   margin: 0;
   padding: 0;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 .sidebarContent {
@@ -373,8 +374,20 @@ button:focus {
 
 /*----------------------------------- ABOUT ----------------------------------*/
 
+.aboutSidebarContent {
+  overflow: scroll;
+  max-height: 70vh;
+  padding: 145px 30px 0 20px;
+  width: 450px;
+}
+
+.aboutSidebarContent h3 {
+  font-weight: 300;
+  margin: 40px 0 20px 0;
+}
+
 .people-container {
-  margin-bottom: 40px;
+  margin: 10px 0 10px 0;
 }
 
 .people-container>div {
@@ -384,10 +397,10 @@ button:focus {
 }
 
 .img-container {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 100px;
-  border: 5px solid #A379C9;
+  border: 3px solid #A379C9;
 }
 
 .img-container>img {
@@ -407,10 +420,29 @@ button:focus {
 .info-container .mail {
   font-size: .6em;
   margin-top: 5px;
+  opacity: 0.6;
+  transition: 300ms;
 }
 
-.sidebarContent .text {
-  font-size: .6em;
+.info-container .mail:hover {
+  opacity: 1;
+}
+
+.aboutSidebarContent li {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.aboutSidebarContent .text {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.aboutSidebarContent a {
+  color: white;
+  text-decoration: underline;
+  transition: 300ms;
 }
 
 .link {
