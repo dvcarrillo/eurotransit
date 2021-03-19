@@ -16,7 +16,6 @@ const MapTooltip = ({ country, link, transport, year }) => {
       return (
         <div>
           <h3>{name}</h3>
-          <p>No data available</p>
         </div>
       );
     }
