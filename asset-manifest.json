@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/eurotransit/static/css/main.ed83f5dc.chunk.css",
-    "main.js": "/eurotransit/static/js/main.b3135b70.chunk.js",
-    "main.js.map": "/eurotransit/static/js/main.b3135b70.chunk.js.map",
-    "runtime-main.js": "/eurotransit/static/js/runtime-main.55b8513c.js",
-    "runtime-main.js.map": "/eurotransit/static/js/runtime-main.55b8513c.js.map",
-    "static/js/2.1a7fead5.chunk.js": "/eurotransit/static/js/2.1a7fead5.chunk.js",
-    "static/js/2.1a7fead5.chunk.js.map": "/eurotransit/static/js/2.1a7fead5.chunk.js.map",
-    "static/js/3.ecc2f76f.chunk.js": "/eurotransit/static/js/3.ecc2f76f.chunk.js",
-    "static/js/3.ecc2f76f.chunk.js.map": "/eurotransit/static/js/3.ecc2f76f.chunk.js.map",
+    "main.css": "/eurotransit/static/css/main.b8d50bb6.chunk.css",
+    "main.js": "/eurotransit/static/js/main.d7a2fd08.chunk.js",
+    "main.js.map": "/eurotransit/static/js/main.d7a2fd08.chunk.js.map",
+    "runtime-main.js": "/eurotransit/static/js/runtime-main.ae99db52.js",
+    "runtime-main.js.map": "/eurotransit/static/js/runtime-main.ae99db52.js.map",
+    "static/js/2.635b6f79.chunk.js": "/eurotransit/static/js/2.635b6f79.chunk.js",
+    "static/js/2.635b6f79.chunk.js.map": "/eurotransit/static/js/2.635b6f79.chunk.js.map",
+    "static/js/3.b4189ea7.chunk.js": "/eurotransit/static/js/3.b4189ea7.chunk.js",
+    "static/js/3.b4189ea7.chunk.js.map": "/eurotransit/static/js/3.b4189ea7.chunk.js.map",
     "index.html": "/eurotransit/index.html",
-    "static/css/main.ed83f5dc.chunk.css.map": "/eurotransit/static/css/main.ed83f5dc.chunk.css.map",
-    "static/js/2.1a7fead5.chunk.js.LICENSE.txt": "/eurotransit/static/js/2.1a7fead5.chunk.js.LICENSE.txt"
+    "static/css/main.b8d50bb6.chunk.css.map": "/eurotransit/static/css/main.b8d50bb6.chunk.css.map",
+    "static/js/2.635b6f79.chunk.js.LICENSE.txt": "/eurotransit/static/js/2.635b6f79.chunk.js.LICENSE.txt",
+    "static/media/david.68c4a30e.png": "/eurotransit/static/media/david.68c4a30e.png",
+    "static/media/fabian.8d90f093.png": "/eurotransit/static/media/fabian.8d90f093.png",
+    "static/media/gonzalo.a9c41d65.png": "/eurotransit/static/media/gonzalo.a9c41d65.png",
+    "static/media/yan.7b480088.png": "/eurotransit/static/media/yan.7b480088.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.55b8513c.js",
-    "static/js/2.1a7fead5.chunk.js",
-    "static/css/main.ed83f5dc.chunk.css",
-    "static/js/main.b3135b70.chunk.js"
+    "static/js/runtime-main.ae99db52.js",
+    "static/js/2.635b6f79.chunk.js",
+    "static/css/main.b8d50bb6.chunk.css",
+    "static/js/main.d7a2fd08.chunk.js"
   ]
 }
