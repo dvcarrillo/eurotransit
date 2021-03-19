@@ -78,7 +78,7 @@ const About = () => {
             /> */}
             </div>
           ))}
-          <h3>Description</h3>
+          <h3>About the project</h3>
           <div className="text">
             Travelling within the European Union has become a major part of
             citizen’s lives. With more and more routes and connections being
