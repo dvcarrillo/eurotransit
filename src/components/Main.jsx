@@ -7,9 +7,11 @@ import Sidebar from "./sidebar/Sidebar";
 import About from "./sidebar/About";
 import MapChart from "./main/MapChart";
 import MapTooltip from "./main/MapTooltip";
+import Overlay from "./main/Overlay";
 import SidebarContainer from "./SidebarContainer";
 import useDatasetsLimits from "../hooks/useDatasetLimits";
 import useColorSet from "../hooks/useColorSet";
+import Legend from "./Legend";
 
 import theme from "../../src/theme.json";
 
@@ -24,8 +26,9 @@ const Main = ({ datasets }) => {
   const [about, setAbout0] = useState(false);
 
   const setAbout = (flag) => {
+    setSelectedCountries([]);
     setAbout0(flag);
-  }
+  };
 
   const dataset = useMemo(() => datasets[transport][year], [
     datasets,
@@ -37,13 +40,9 @@ const Main = ({ datasets }) => {
 
   const scale = useMemo(() => {
     const rangeMin =
-      transport == "plane"
-        ? theme.map.plane_trips.min
-        : theme.map.train_trips.min;
+      transport == "plane" ? theme.map.plane.min : theme.map.train.min;
     const rangeMax =
-      transport == "plane"
-        ? theme.map.plane_trips.max
-        : theme.map.train_trips.max;
+      transport == "plane" ? theme.map.plane.max : theme.map.train.max;
     const range = [rangeMin, rangeMax];
     return chroma.scale(range).domain([min, max]);
   }, [max, min]);
@@ -64,6 +63,7 @@ const Main = ({ datasets }) => {
   return (
     <SidebarContainer
       open={about || selectedCountries.length > 0}
+      about={about}
       onClose={() => {
         setSelectedCountries([]);
         setAbout(false);
@@ -83,6 +83,7 @@ const Main = ({ datasets }) => {
       }
       mainContent={
         <div className="main">
+          {about && <Overlay />}
           {/* <Header /> */}
           <Navbar
             selected={transport}
@@ -110,11 +111,20 @@ const Main = ({ datasets }) => {
             transport={transport}
             year={year}
           />
-          <YearSelector
-            selected={year}
-            setSelected={setYear}
-            options={YEAR_OPTS}
-          />
+          {!about && (
+            <>
+              <YearSelector
+                selected={year}
+                setSelected={setYear}
+                options={YEAR_OPTS}
+              />
+              <Legend
+                limits={[max, min]}
+                theme={theme}
+                transportation={transport}
+              />
+            </>
+          )}
         </div>
       }
     />
