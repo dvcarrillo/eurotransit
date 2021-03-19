@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eurotransit/static/css/main.b8d50bb6.chunk.css",
-    "main.js": "/eurotransit/static/js/main.1241f0c6.chunk.js",
-    "main.js.map": "/eurotransit/static/js/main.1241f0c6.chunk.js.map",
+    "main.js": "/eurotransit/static/js/main.c593cc99.chunk.js",
+    "main.js.map": "/eurotransit/static/js/main.c593cc99.chunk.js.map",
     "runtime-main.js": "/eurotransit/static/js/runtime-main.ae99db52.js",
     "runtime-main.js.map": "/eurotransit/static/js/runtime-main.ae99db52.js.map",
     "static/js/2.635b6f79.chunk.js": "/eurotransit/static/js/2.635b6f79.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.ae99db52.js",
     "static/js/2.635b6f79.chunk.js",
     "static/css/main.b8d50bb6.chunk.css",
-    "static/js/main.1241f0c6.chunk.js"
+    "static/js/main.c593cc99.chunk.js"
   ]
 }
