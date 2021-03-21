@@ -91,6 +91,17 @@ const About = () => {
             changes in international passenger flows over the course of the last
             couple of years.
           </div>
+          <h3>Demo Video</h3>
+          <div className="text">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/watch?v=4q7Ijjh7vIM"
+            >
+              https://www.youtube.com/watch?v=4q7Ijjh7vIM
+            </a>
+          </div>
           <h3>Data provenance</h3>
           <div className="text">
             <ul>
@@ -123,6 +134,27 @@ const About = () => {
                 >
                   Rail passenger transport 2020
                 </a>
+              </li>
+            </ul>
+          </div>
+          <h3>Achieved learning objectives</h3>
+          <div className="text">
+            <ul>
+              <li>Finding applicable datasets.
+              </li>
+              <li>Cleaning, sorting, and optimizing datasets so that they can be utilized.
+              </li>
+              <li>Understanding user needs and designing prototypes accordingly.   
+              </li>
+              <li>Determining distinct and appropriate ways to visualize specific data.           
+              </li>
+              <li>Identifying and developing adequate interactions to effectively visualize large amounts of data.
+              </li>
+              <li>Working with React to build an interactive web application that enables users to gain a good understanding of the data at hand through visual mappings, data transformations, and view transformations.               
+              </li>
+              <li>Utilizing and understanding the visualization pipeline and libraries.                
+              </li>
+              <li>Taking external feedback and implementing fixes.
               </li>
             </ul>
           </div>
