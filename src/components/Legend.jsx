@@ -9,6 +9,7 @@ const Legend = ({ limits, transportation }) => {
   const color_range = chroma.scale(range).domain([min, max]).colors(8);
   return (
     <div className="legend">
+      <h3>Legend</h3>
       <div className="legend__colors">
         {color_range.map((opt) => (
           <div style={{ backgroundColor: opt, width: "30px", height: "10px" }}></div>

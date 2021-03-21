@@ -99,11 +99,12 @@ const About = () => {
               rel="noreferrer"
               href="https://www.youtube.com/watch?v=4q7Ijjh7vIM"
             >
-              https://www.youtube.com/watch?v=4q7Ijjh7vIM
+              Watch on YouTube
             </a>
           </div>
           <h3>Data provenance</h3>
           <div className="text">
+            From Eurostat:
             <ul>
               <li>
                 <a

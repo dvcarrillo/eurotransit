@@ -19,7 +19,7 @@ const Autoplay = ({ setYear, year, play }) => {
 
   return (
     <button
-      data-tip="Auto play"
+      data-tip="Play all years"
       className={playing ? "tab-active" : "tab-btn"}
       onClick={() => setPlaying(!playing)}
     >
