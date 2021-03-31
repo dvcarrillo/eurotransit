@@ -1,5 +1,5 @@
 # Eurotransit
-Interactive visualizations of the transit in Europe using D3.js and Chart.js. See the live app on [dvcarrillo.com/eurotransit](http://www.dvcarrillo.com/eurotransit)
+Interactive visualizations of the transit in Europe using D3.js and Chart.js. See the live app on [dvcarrillo.com/eurotransit](http://www.dvcarrillo.com/eurotransit).
 
 ## Development
 Run server in development mode: `npm start`.
